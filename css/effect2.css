@@ -70,12 +70,13 @@
 /* Content */
 .ip-main {
 	overflow: hidden;
+}
+.ip-main .bar{
 	margin: 0 auto;
-	padding: 160px 0 1rem 0;
+	padding: 160px 0 .6rem 0;
 	background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
 }
-
 .ip-main h2 {
 	margin: 0;
 	padding: 0.5em 0 1em;
@@ -218,19 +219,4 @@
 
 .no-js .ip-header .ip-logo svg path {
 	fill: #fff;
-}
-
-/* Media queries */
-
-@media screen and (max-width: 45em) {
-
-	.ip-main h2 {
-		font-size: 2.25em;
-		font-size: 10vw;
-	}
-
-	.box {
-		width: 100%%;
-	}
-
 }
