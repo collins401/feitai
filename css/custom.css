@@ -83,6 +83,7 @@
 	color: #FFF;
 	text-align: center;
 	line-height: 1;
+	text-transform: capitalize;
 }
 .ip-main h3{
 	color:#159957;
