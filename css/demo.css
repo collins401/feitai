@@ -55,7 +55,7 @@ body {
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
-  font-family: font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
   position: relative; }
 
@@ -125,17 +125,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 
 .inner {
   padding: 0 0.3rem; }
-
-/* Demo colors */
-.demo-1 { background: #ef6e7e; }
-.demo-1 a { color: #be4856; }
-
-.demo-2 { background: #72d0f4; }
-.demo-2 a { color: #1c9ccd; }
-
-a:hover, a:focus {
-	color: #fff;
-}
 
 section {
 	padding: 1em;
