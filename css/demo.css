@@ -1,0 +1,236 @@
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+@media only screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 53.33333px; } }
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 64px; } }
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333px; } }
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+@media only screen and (max-width: 319px) {
+  html {
+    font-size: 42.53333px; } }
+/*! reset; update: 2015-7-30*/
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/*移除移动端点击默认高亮背景*/
+div, a {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  font: 400 14px/ 1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #676767;
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+  position: relative; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+a:visited {
+  color: #333;
+  text-decoration: none; }
+
+img {
+  border: none;
+  vertical-align: middle;
+  max-width: 100%; }
+
+h1, h2, h3, h4, h5 {
+  color: #676767;
+  font-weight: normal; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  font-family: inherit;
+  color: #676767; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.ta-c {
+  text-align: center; }
+
+.ta-r {
+  text-align: right; }
+
+.ta-l {
+  text-align: left; }
+
+.bfc {
+  overflow: hidden; }
+
+/*------------------------------------*\
+    grid system
+\*------------------------------------*/
+.container {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1280px;
+  min-width: 320px;
+  overflow: hidden; }
+  .container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.inner {
+  padding: 0 0.3rem; }
+
+/* Demo colors */
+.demo-1 { background: #ef6e7e; }
+.demo-1 a { color: #be4856; }
+
+.demo-2 { background: #72d0f4; }
+.demo-2 a { color: #1c9ccd; }
+
+a:hover, a:focus {
+	color: #fff;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	opacity: 0.7;
+}
+
+
+
+/* Related demos */
+.related {
+	padding: 4em 0 3em;
+}
+
+.related p {
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.related > a {
+	border: 2px solid #000;
+	border-color: initial;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: left;
+}
+
+/* Demo ad design */
+body #cdawrap {
+	background: none;
+	top: 50px;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 1.2s;
+	transition: opacity 0.3s 1.2s;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body #cdawrap a {
+	color: #fff !important;
+}
+
+body .loaded ~ #cdawrap {
+	opacity: 1;
+}
+
+body #cdawrap #cda-remove {
+	top: 20px;
+	right: 25px;
+	width: 20px;
+	height: 20px;
+	opacity: 0;
+}
+
+body #cdawrap:hover #cda-remove {
+	opacity: 1;
+}
+
+@media screen and (max-width: 35em) {
+	.codrops-icon span {
+		display: none;
+	}
+}
